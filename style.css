@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #293241;
+  height: 100vh;
+  z-index: -1;
+}
+.uppersite {
+  position: relative;
+  height: 50vh;
+  z-index: 0;
+}
+.downsite {
+  height: 50vh;
+  background-color: #4a4e69;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: sticky;
+  flex-direction: column;
+}
+.uppersite div {
+  height: 35vh;
+
+  bottom: -20vh;
+  width: 11.11vw;
+  z-index: 0;
+
+  position: absolute;
+}
+.r1 {
+  background-color: tomato;
+  z-index: 0;
+  left: 11.11vw;
+}
+.r2 {
+  background-color: cornflowerblue;
+  z-index: 0;
+  left: 33.33vw;
+}
+.r3 {
+  background-color: yellow;
+  z-index: 0;
+  left: 55.55vw;
+}
+.r4 {
+  background-color: greenyellow;
+
+  z-index: 0;
+  left: 77.77vw;
+}
+.rood {
+  color: tomato;
+}
+.blauw {
+  color: cornflowerblue;
+}
+.geel {
+  color: yellow;
+}
+.groen {
+  color: greenyellow;
+}
+span {
+  font-size: 2em;
+  font-weight: bolder;
+}
+.val1 {
+  transform: translateY(-20vh);
+  transition: 1s;
+}
+.val2 {
+  transform: translateY(-15vh);
+  transition: 1s;
+}
+.val3 {
+  transform: translateY(-10vh);
+  transition: 1s;
+}
+.val4 {
+  transform: translateY(-5vh);
+  transition: 1s;
+}
